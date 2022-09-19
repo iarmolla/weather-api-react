@@ -5,14 +5,14 @@ import {
   Link,
   Route
 } from "react-router-dom";
-import Climate from './components/Climate'
+import Weather from './components/Weather'
 
 function App() {
   return (
     <div className='min-h-screen font-sans'>
       <Router>   
       <Routes>
-        <Route path="/" element={<Climate></Climate>}></Route>
+        <Route path="/" element={<Weather></Weather>}></Route>
         {/* <Route path="/climate" element={}></Route> */}
       </Routes>
     </Router>
