@@ -7,7 +7,7 @@ function WeatherCard({ weather }) {
         iconCloud = `https://api.openweathermap.org/img/w/${weather.weather[0].icon}.png`
     }
     return (
-        <main className="rounded-md grid grid-cols-2  border-2 border-indigo-500 p-12 m-20">
+        <main className="rounded-md grid grid-cols-2  border-2 border-indigo-500 p-12 mb-10">
             {/* seccion clima titulo icono */}
             <section className="p-3 rounded-md ">
                 {
