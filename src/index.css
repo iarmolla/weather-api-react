@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container__weather>p{
+    border-bottom: 1px solid #212529;
+    font-weight: 350;
+}
