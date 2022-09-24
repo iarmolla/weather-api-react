@@ -13,6 +13,9 @@ function Weather() {
   const handleChange = () => {
     getWeatherByCountry(updateWeather, country)
   }
+  if(country.length==3){
+    
+  }
   return (
     <>
       <header>
@@ -34,7 +37,7 @@ function Weather() {
         </nav>
       </header>
       <div className="flex justify-center content-center">
-        <div className="grid grid-cols-1 gap-4 mt-5 md:grid md:grid-cols-3 md:gap-5 md:mt-8 md:mx-4 max-w-4xl ">
+        <div className="grid grid-cols-1 gap-4 mt-5 md:grid md:grid-cols-1  md:gap-5 md:mt-8 md:mx-4 max-w-4xl ">
           {
             allCountries.map((weather) => {
               return <div key={weather.id}>
